@@ -7,71 +7,71 @@ using namespace std;
 
 int main() {
     while (true) {
-        string name;
+        string word;
         cout << "Search a Word (or type 'exit' to quit): ";
-        getline(cin, name);
+        getline(cin, word);
 
-        if (name == "exit") {
+        if (word == "exit") {
             break;
-        } else if (name == "Accismus") {
+        } else if (word == "Accismus") {
             cout << "Pretending to be disinterested in something you actually want." << endl;
-        } else if (name == "Apricate") {
+        } else if (word == "Apricate") {
             cout << "To bask in the sunshine." << endl;
-        } else if (name == "Bafflegab") {
+        } else if (word == "Bafflegab") {
             cout << "Confusing or unintelligible jargon." << endl;
-        } else if (name == "Bailiwick") {
+        } else if (word == "Bailiwick") {
             cout << "A person's area of expertise or authority." << endl;
-        } else if (name == "Cacophony") {
+        } else if (word == "Cacophony") {
             cout << "A harsh, discordant mixture of sounds." << endl;
-        } else if (name == "Clandestine") {
+        } else if (word == "Clandestine") {
             cout << "Kept secret or done secretively." << endl;
-        } else if (name == "Convivial") {
+        } else if (word == "Convivial") {
             cout << "Friendly and enjoyable." << endl;
-        } else if (name == "Credulity") {
+        } else if (word == "Credulity") {
             cout << "A tendency to believe things too readily." << endl;
-        } else if (name == "Effervescent") {
+        } else if (word == "Effervescent") {
             cout << "Bubbly, lively, or enthusiastic." << endl;
-        } else if (name == "Ephemeral") {
+        } else if (word == "Ephemeral") {
             cout << "Lasting for a very short time." << endl;
-        } else if (name == "Erudite") {
+        } else if (word == "Erudite") {
             cout << "Having or showing great knowledge or learning." << endl;
-        } else if (name == "Fatuous") {
+        } else if (word == "Fatuous") {
             cout << "Silly and pointless." << endl;
-        } else if (name == "Flibbertigibbet") {
+        } else if (word == "Flibbertigibbet") {
             cout << "A frivolous or flighty person." << endl;
-        } else if (name == "Garrulous") {
+        } else if (word == "Garrulous") {
             cout << "Excessively talkative, especially on trivial matters." << endl;
-        } else if (name == "Ineluctable") {
+        } else if (word == "Ineluctable") {
             cout << "Unable to be resisted or avoided." << endl;
-        } else if (name == "Insouciant") {
+        } else if (word == "Insouciant") {
             cout << "Showing a lack of concern." << endl;
-        } else if (name == "Lachrymose") {
+        } else if (word == "Lachrymose") {
             cout << "Tearful or given to weeping." << endl;
-        } else if (name == "Loquacious") {
+        } else if (word == "Loquacious") {
             cout << "Tending to talk a great deal; talkative." << endl;
-        } else if (name == "Mellifluous") {
+        } else if (word == "Mellifluous") {
             cout << "(of a voice or words) sweet or musical; pleasant to hear." << endl;
-        } else if (name == "Obsequious") {
+        } else if (word == "Obsequious") {
             cout << "Excessively attentive or flattering." << endl;
-        } else if (name == "Pauciloquent") {
+        } else if (word == "Pauciloquent") {
             cout << "Using few words; terse or concise." << endl;
-        } else if (name == "Perspicacious") {
+        } else if (word == "Perspicacious") {
             cout << "Having a ready grasp of things; shrewd or discerning." << endl;
-        } else if (name == "Pneumonoultramicroscopicsilicovolcanoconiosis") {
+        } else if (word == "Pneumonoultramicroscopicsilicovolcanoconiosis") {
             cout << "A lung disease caused by inhaling very fine silica dust." << endl;
-        } else if (name == "Pulchritudinous") {
+        } else if (word == "Pulchritudinous") {
             cout << "Having great physical beauty." << endl;
-        } else if (name == "Quixotic") {
+        } else if (word == "Quixotic") {
             cout << "Exceedingly idealistic; unrealistic and impractical." << endl;
-        } else if (name == "Raconteur") {
+        } else if (word == "Raconteur") {
             cout << "A person who tells anecdotes in a skillful and amusing way." << endl;
-        } else if (name == "Sycophant") {
+        } else if (word == "Sycophant") {
             cout << "A person who tries to win favor from wealthy or influential people by flattering them." << endl;
-        } else if (name == "Tittynope") {
+        } else if (word == "Tittynope") {
             cout << "A small quantity of anything left over." << endl;
-        } else if (name == "Uxorious") {
+        } else if (word == "Uxorious") {
             cout << "Having or showing an excessive or submissive fondness for one's wife." << endl;
-        } else if (name == "Verbiage") {
+        } else if (word == "Verbiage") {
             cout << "Speech or writing that uses too many words or excessively technical expressions." << endl;
         } else {
             cout << "Word is not on the List!" << endl;
